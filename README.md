@@ -1,2 +1,2 @@
 # blockio.js
-blockio js library
+blockio.js is a js library

@@ -1,0 +1,38 @@
+.blockio-block {
+  width: 100px;
+  height: 50px;
+  margin: 5px;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  cursor: pointer;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.blockio-block.control {
+  background-color: #FF5733;
+}
+
+.blockio-block.action {
+  background-color: #33B5FF;
+}
+
+.blockio-block.custom {
+  background-color: #8E44AD;
+}
+
+#workspace {
+  margin-top: 20px;
+  min-height: 300px;
+  background-color: #f1f1f1;
+  padding: 20px;
+  border: 2px dashed #ccc;
+}
+
+#blockio-container {
+  display: flex;
+  flex-wrap: wrap;
+}
